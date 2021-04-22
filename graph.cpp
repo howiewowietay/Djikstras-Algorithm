@@ -11,7 +11,7 @@
 using namespace std;
 
 
-/*
+
 extern VERTEX *V;
 
 void printPath(int n, int source, int destination, int s, int t)
