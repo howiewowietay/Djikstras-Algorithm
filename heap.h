@@ -8,7 +8,7 @@ typedef VERTEX ELEMENT;
 typedef VERTEX* pElement;
 
 
-//typedef struct TAG_ELEMENT{
+typedef struct TAG_ELEMENT{
     //float key;
     //int vertex;
 //}ELEMENT;
