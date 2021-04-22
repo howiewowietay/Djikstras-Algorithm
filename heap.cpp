@@ -81,7 +81,7 @@ void minHeapify(HEAP* H, int i)//Moving Down
 		swap(H->H[i]->vertex, H->H[smallest]->vertex);
 		swap(H->H[i]->key, H->H[smallest]->key);
 		swap(H->H[i]->pos, H->H[smallest]->pos);
-		Recursive method to heapify a subtree with the root at given index
+		//Recursive method to heapify a subtree with the root at given index
 		minHeapify(H, smallest);
 	}
 }
