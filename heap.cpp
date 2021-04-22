@@ -189,4 +189,4 @@ int heapInsert(HEAP* heap, pElement item)
 	
 	MovingUp(heap, heap->size);
 	return 0;
-}
+
