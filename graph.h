@@ -2,7 +2,7 @@
 #define GRAPH_H
 using namespace std;
 
-//typedef struct TAG_VERTEX {
+typedef struct TAG_VERTEX {
 	int vertex;
 	int color;//color of vertex: in {0, 1, 2}//
 	int pi;//predecessor of vertex: in {1, 2, ..., n}//
