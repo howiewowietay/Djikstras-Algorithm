@@ -121,7 +121,7 @@ void dijkstra(int n, pNODE* A, int s, int d, int f)
 
 	heap = initializeHeap(n);
 
-	SRCel = new ELEMENT; 
+	//SRCel = new ELEMENT; 
 	SRCel->vertex = s;
 	SRCel->key = V[s].key;
 
