@@ -79,7 +79,7 @@ int main(int argc, char* argv[])
             printf("Error: malloc failure.\n");
             exit(1);
         }
-        node->u = u;
+        //node->u = u;
         node->v = v;
         node->w = w;
         node->next = A[u];
