@@ -126,7 +126,7 @@ void writePath(int source, int destination, VERTEX* V, int t, int n)
 		printf(", %d", arr[index]);
 	}
 	printf(">\n");
-	printf("The path weight is: %12.4f\n", V[t].key);
+	//printf("The path weight is: %12.4f\n", V[t].key);
 }
 
 int extractMin(HEAP* heap)// Delete Min
